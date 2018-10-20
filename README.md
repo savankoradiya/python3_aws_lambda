@@ -103,7 +103,7 @@ Add Name and click on Create Policy
 
 ## Create Lambda Package
 
-## Install python 3.6 in your machine or ec2 instance
+Install python 3.6 in your machine or ec2 instance
 
 Install virualenv
 
@@ -125,7 +125,7 @@ source demo/bin/activate
 
 ```
 
-## Install Required Packages
+Install Required Packages
 
 ```
 pip3 install boto3
@@ -133,15 +133,15 @@ pip3 install paramiko
 
 ```
 
-## Go to demo/lib/python3.6/site-packages
+Go to demo/lib/python3.6/site-packages
 
-## Create zip file
+Create zip file
 
 ```
 zip -r code_lambda.zip .
 
 ```
-## Add your Code Files
+Add your Code Files
 
 ```
 zip -r code_lambda.zip code_lambda.py
@@ -184,7 +184,7 @@ Select Upload .zip file and Select zip file which we created earlier and click o
 
 ![title](images/lambda6.png)
 
-In Handle you need to add "your file name"."your function name"
+In Handler you need to add "your file name"."your function name"
 
 ![title](images/lambda7.png)
 
