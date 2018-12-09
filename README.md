@@ -118,7 +118,7 @@ virtualenv demo
 
 ```
 
-Active your virtual environment
+Activate your virtual environment
 
 ```
 source demo/bin/activate
